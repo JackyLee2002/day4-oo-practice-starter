@@ -2,12 +2,12 @@ package afs.training.oo;
 
 public class Bus extends Vehicle{
 
-    public static final int ACCELERATION = 5;
+    public static final int BUS_ACCELERATION = 5;
 
     private final Engine engine;
 
     public Bus(String name, Integer speed, Engine engine) {
-        super(name, speed, ACCELERATION);
+        super(name, speed, BUS_ACCELERATION);
         this.engine = engine;
     }
 
