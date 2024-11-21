@@ -1,6 +1,7 @@
 package afs.training.oo;
 
 public class Vehicle {
+
     protected  String name;
 
     protected  Integer speed;
